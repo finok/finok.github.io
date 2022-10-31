@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Welcome</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./index.css" />
+	</head>
+	<body class="pc-simulator win32 winnt">
+		<section class="desktop-container">
+			<div class="desktop">
+				<div class="desktop-icon my-computer">
+					<span>我的电脑</span>
+				</div>
+				<div class="desktop-icon my-document">
+					<span>我的文档</span>
+				</div>
+				<div class="desktop-icon iexplorer">
+					<span>Internet Explorer</span>
+				</div>
+				<div class="desktop-icon network">
+					<span>网上邻居</span>
+				</div>
+				<div class="desktop-icon outlook">
+					<span>Outlook Express</span>
+				</div>
+			</div>
+			
+			<div class="window-frame" style="left: 100px; top: 150px; width: 300px; height: 200px">
+				<div class="title-bar">
+					<span class="title">登录到 Windows</span>
+					<span class="button-group">
+						<button type="button">
+							<span>&times;</span>
+						</button>
+					</span>
+				</div>
+			</div>
+		</section>
+		
+		<section class="task-bar">
+			<div class="left">
+				<button class="start-button" title="开始">
+					<span class="start-text">开始</span>
+				</button>
+				
+				<span class="seperator"></span>
+				
+				<section class="quick-start-group">
+					<button class="quick-start-button iexplorer"></button>
+					<button class="quick-start-button desktop"></button>
+					<button class="quick-start-button mediaplayer"></button>
+					<button class="quick-start-button outlook"></button>
+				</section>
+				
+				<span class="seperator"></span>
+			</div>
+			
+			<div class="right">
+				<section class="tray-group">
+					<span class="tray-icon sound"></span>
+					<span class="tray-icon lang en">En</span>
+					<span class="tray-time time time-inner-text"></span>
+				</section>
+			</div>
+		</section>
+		
+		<script src="./js/syncTime.js"></script>
+	</body>
+</html>
